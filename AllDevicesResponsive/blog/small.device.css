@@ -1,0 +1,45 @@
+/* ============ Small Device Responsive ================ */
+@media (max-width: 767.98px) { 
+    /* ========= case css ============= */
+    .caseTop__title {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .caseBottom__summary {
+        font-size: 15px;
+        padding-right: 0px;
+    }
+    /* ========= case css ============= */
+
+
+    /* =========== Blog css ============= */
+    .blogTop__title {
+        font-size: 35px;
+    }
+
+    .blogContent__one {
+        font-size: var(--paragraph_font_size);
+        font-weight: var(--card_heading_title_font_weight);
+        color: var(--primary_font_color);
+        opacity: 0.7;
+        margin-top: 24px;
+        font-size: 13px;
+    }
+
+    .blogContent__title {
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .blogContent__summary {
+        line-height: 20px;
+        font-size: 11px;
+    }
+
+    .readBtn {
+        font-size: 13px;
+    }
+    /* =========== Blog css ============= */
+ }
+
+/* ============ Small Device Responsive ================ */
+

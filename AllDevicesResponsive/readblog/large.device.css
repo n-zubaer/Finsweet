@@ -1,0 +1,40 @@
+/* =================== Large Device Responsive ================ */
+@media (max-width: 1199.98px) {
+    :root {
+        --primary_background_color: #1c1e53;
+        --secondary_background_color: #eef4fa;
+        --primary_font_color: #282938;
+        --navbar_font_color: #bbbbcb;
+        --white_color: #ffff;
+        --yellow_color: #fcd980;
+      }
+
+      /* =========== case css ============ */
+      .caseTop__title {
+        font-size: 33px;
+        line-height: 44px;
+    }
+
+      /* =========== case css ============ */
+
+      /* ======= blog css ========== */
+      .blogHeading__title {
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .blogItems li {
+        font-size: 15px;
+    }
+      /* ======= blog css ========== */
+
+      /* ========= footer css ======= */
+      .foooterLeft__summary {
+        padding-right: 99px;
+    }
+
+    .footerRight__summary {
+        padding-right: 97px;
+    }
+      /* ========= footer css ======= */
+ }
+/* =================== Large Device Responsive ================ */

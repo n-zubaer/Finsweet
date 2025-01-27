@@ -1,0 +1,30 @@
+/* ================= Extra Small Device Css =============== */
+@media (max-width: 575.98px) {
+  /* ============= Contact css =============== */
+  #contactpart {
+    padding: 60px 0;
+  }
+  .contactTop__title {
+    font-size: 36px;
+  }
+  /* ============= Contact css =============== */
+
+  /* ================ form css ============= */
+  #name {
+    font-size: 13px;
+  }
+  #email {
+    font-size: 13px;
+  }
+  #textArea {
+    padding-left: 17px;
+    font-size: 13px;
+  }
+
+  .sendBtn {
+    padding: 16px 35px;
+  }
+  /* ================ form css ============= */
+}
+
+/* ================= Extra Small Device Css =============== */

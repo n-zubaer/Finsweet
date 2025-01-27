@@ -1,0 +1,34 @@
+/* ============== Extra Small Device responsive ============== */
+@media (max-width: 575.98px) {
+    /* =========== Case Css ========= */
+    .caseTop__title {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .posted {
+        font-size: 13px;
+    }
+
+    .caseBottom__summary {
+        font-size: 13px;
+    }
+    /* =========== Case Css ========= */
+
+    /* ================ footer css ========= */
+    .foooterLeft__summary {
+        font-size: 14px;
+    }
+
+    .footerRight__title {
+        font-size: 39px;
+    }
+
+    .footerRight__summary {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    /* ================ footer css ========= */
+}
+
+/* ============== Extra Small Device responsive ============== */
+

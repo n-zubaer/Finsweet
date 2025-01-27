@@ -1,0 +1,453 @@
+/* ========================================= Google Fonts =========================== */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ========================================= Google Fonts =========================== */
+
+
+/* ========================================= Common Css =============================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+    display: inline;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6,span,div,section,img,p,br,a,nav{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary_background_color:#1C1E53;
+    --secondary_background_color:#F4F6FC;
+    --white_color:#FFFFFF;
+    --primary_font_color:#282938;
+    --yellow_color:#FCD980;
+    --poppins:"Poppins", sans-serif;
+}
+
+body{
+    font-family: var(--poppins);
+}
+
+/* ========================================= Common Css =============================== */
+
+
+/* ========================================= Navbar Css =============================== */
+.customNav{
+    padding: 16px 0;
+    background-color: var(--primary_background_color);
+}
+
+.navItem{
+    margin-left: 32px;
+}
+
+.navItem a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    transition: ease-in-out 0.3s    ;
+    -webkit-transition: ease-in-out 0.3s    ;
+    -moz-transition: ease-in-out 0.3s    ;
+    -ms-transition: ease-in-out 0.3s    ;
+    -o-transition: ease-in-out 0.3s    ;
+}
+
+.navItem a:hover{
+    color: var(--white_color);
+}
+
+.contactBtn{
+    padding: 16px 48px;
+    background-color: transparent;
+    border: 2px solid rgb(244, 246, 252,0.2) ;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+    margin-left: 48px;
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+
+.contactBtn:hover{
+   background-color: var(--yellow_color);
+   color: var(--primary_font_color);
+}
+
+/* ========================================= Navbar Css =============================== */
+
+
+
+/* ========================================= Web Css =============================== */
+#webPart{
+    padding: 128px 0 96px 0;
+    background-color: var(--white_color);
+}
+
+.webTop{
+    row-gap: 12px;
+}
+
+.webTop__subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 0.8;
+}
+
+.webTop__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+    line-height: 64px;
+    margin-bottom: 4px;
+    padding-right: 32%;
+}
+
+.webTop__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color:var(--primary_font_color);
+    opacity: 0.7;
+    line-height: 28px;
+    padding-right: 26px;
+}
+
+.client__top{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.client__bottom{
+    font-size: 25px;
+    font-weight: 500;
+    color:var(--primary_font_color)
+}
+
+.Service__top{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.Service__bottom{
+    font-size: 25px;
+    font-weight: 500;
+    color:var(--primary_font_color)
+}
+
+.Deliverable__top{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 0.8;
+    margin-bottom: 4px;
+}
+
+.Deliverable__bottom{
+    font-size: 25px;
+    font-weight: 500;
+    color:var(--primary_font_color)
+}
+
+.underline{
+    width: 100%;
+    height: 1px;
+    opacity: 0.3;
+   background-color: var(--primary_font_color);
+   margin-top: 32px;
+}
+/* ========================================= Web Css =============================== */
+
+/* ========================================= About Css =============================== */
+
+#aboutPart{
+    padding-bottom: 96px ;
+    background-color: var(--white_color);
+}
+
+.customAbout{
+    row-gap: 64px;
+}
+
+.aboutProjectDetails{
+    row-gap: 12px;
+}
+
+.aboutProjectDetails__title{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+}
+
+.aboutProjectDetails__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    line-height: 28px;
+    padding-right: 10px;
+}
+
+.aboutItems{
+    row-gap: 16px;
+}
+
+
+.aboutItems li{
+ font-size: 16px;
+ font-weight: 400;
+ color: var(--primary_font_color);
+ opacity: 0.7;
+ 
+}
+
+.aboutBottom{
+    row-gap: 12px;
+}
+
+
+.aboutBottom__title{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+}
+
+
+.aboutBottom__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    line-height: 28px;
+    padding-right: 10px;
+}
+
+.aboutBottomUl{
+    row-gap: 16px;
+    margin-top: 24px;
+}
+
+.aboutBottomUl li{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+}
+
+.customaboutItems{
+    display: flex;
+    align-items: center;
+    margin-top: 96px;
+    padding: 24px 0;
+    border-top: 2px solid rgba(40, 41, 56, 0.2);
+    border-bottom: 2px solid rgba(40, 41, 56, 0.2);
+    
+}
+
+
+.aboutItems{
+    font-size: 24px;
+    font-weight: 500;
+    color: #2405F2;
+}
+
+.aboutItemsOne{
+    font-size: 18px;
+    font-weight: 500;
+    color:var(--primary_font_color);
+}
+
+
+
+/* ========================================= about Css =============================== */
+
+
+
+
+
+
+
+
+
+/* =========================== build Css=================================== */
+#buildPart{
+    padding-bottom: 128px;
+    background-color: var(--white_color);
+}
+.buildDetails{
+    row-gap: 20px;
+}
+
+.buildDetails__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+    max-width: 730px;   
+    line-height: 64px;
+}
+
+.buildDetails__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    max-width: 562px;
+    text-align-last: center;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.contactBtn{
+    padding: 16px 67px;
+    background-color: var(--yellow_color);
+    color: var(--primary_font_color);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid var(--yellow_color);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+.contactBtn:hover{
+    background-color: transparent;
+    border: 2px solid var(--yellow_color);
+}
+
+.--modify__button{
+    margin-left: 0;
+}
+/* =========================== build Css=================================== */
+
+
+/* =========================== Footer Css=================================== */
+#footerPart{
+    padding-top: 96px;
+    background-color: var(--primary_background_color);
+}
+
+.foooterLeft__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+    padding-right: 241px;
+    line-height: 28px;
+    margin-top: 22px;
+    opacity: 0.8;
+}
+
+.footerContent {
+    padding: 18px 0 16px 37px;
+    background-color: var(--yellow_color);
+    margin-top: 86px;
+}
+
+.footerLeftContent__email{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+.footerLeftContent address{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+}
+
+.footerLeftContentOne__call{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+.footerLeftContentOne a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+}
+
+.footerRight{
+    row-gap: 14px;
+}
+
+.footerRight__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white_color);
+}
+
+.footerRight__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white_color);
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 218px;
+}
+
+.footerSocial{
+    column-gap: 26px;
+    margin-top: 14px;
+    color:var(--white_color);
+    cursor: pointer;
+}
+
+.footerBottom{
+    padding: 15px 0;
+    background-color: var(--white_color);
+}
+
+.copyRight{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+.CopyRight__item{
+    margin-left:32px;
+}
+
+.CopyRight__item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+/* =========================== Footer Css=================================== */
+
+

@@ -1,0 +1,100 @@
+/* =========== Medium Device Responsive ============= */
+@media (max-width: 991.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* ============== navbar css =========== */
+  .customnavItem {
+    text-align: center;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+  }
+
+  .customnavItem:hover {
+    background-color: var(--yellow_color);
+  }
+
+  .customBtn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  /* ============== navbar css =========== */
+
+  /* ============ hero css ============= */
+  .heroLeft__summary {
+    margin-bottom: 26px;
+  }
+  /* ============ hero css ============= */
+
+  /* ================ goal css =========== */
+  .goalContentleft__Top {
+    font-size: 13px;
+  }
+  .goalContentRight__title,
+  .goalContentleft__title {
+    font-size: 17px;
+  }
+  .goalContentleft__summary,
+  .goalContentRight__summary {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  /* ================ goal css =========== */
+
+  /* ========= mission css ============= */
+  .missionLeft__summary {
+    margin-bottom: 20px;
+  }
+  /* ========= mission css ============= */
+
+  /* ======== benefits css =========== */
+  .benefitsContent {
+    row-gap: 12px;
+    padding: 50px 32px 48px 32px;
+  }
+  .benefitsTop__title {
+    font-size: 37px;
+  }
+  .benefitsContent__summary {
+    text-align-last: center;
+  }
+  /* ======== benefits css =========== */
+
+  /* ======== footer css =========== */
+  .foooterLeft {
+    text-align: center;
+  }
+  .foooterLeft__summary {
+    padding-right: 0;
+  }
+
+  .footerContent {
+    padding: 18px 0 16px 0px;
+  }
+
+  .footerRight__summary {
+    padding-right: 0;
+    text-align-last: center;
+  }
+
+  .--modifier_footer {
+    color: var(--primary_font_color);
+    padding-top: 6px;
+  }
+  /* ======== footer css =========== */
+}
+/* =========== Medium Device Responsive ============= */

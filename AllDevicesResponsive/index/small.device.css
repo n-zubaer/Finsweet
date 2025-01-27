@@ -1,0 +1,65 @@
+/* ==================== Small Device Css ================== */
+@media (max-width: 767.98px) {
+
+    .heroLeft__title {
+        line-height: 37px;
+    }
+     .heroLeft__summary{
+        padding-right: 0px;
+     }
+
+    /* ========== work Css============= */
+    .workLeft__summary{
+        text-align-last:center ;
+    }
+
+    .workRight__summary{
+        text-align-last:center ;
+        font-size: 14px;
+    }
+    /* ========== work Css============= */
+
+    /* ============== Project Css ========= */
+    .projectTop__title {
+        font-size: 39px;
+    }
+    .featureTop__title {
+        line-height: 44px;
+        font-size: 31px;
+    }
+
+/* =========== About Css ============ */
+    .aboutRight__title {
+        font-size: 24px;
+        line-height: 38px;
+    }
+/* =========== About Css ============ */
+
+/* =============== Faq Css ============== */
+.customTitle{
+    font-size: 17px;
+}
+
+.customPara{
+    font-size: 14px;
+    line-height: 28px;
+    padding-right: 20px;
+}
+/* =============== Faq Css ============== */
+
+/* ========== === Inquiry Css ========= */
+.inquiryOverlay__title {
+    font-size: 28px;
+    line-height: 37px;
+}
+.inquiryOverlay__summary {
+    font-size: 13px;
+    line-height: 21px;
+}
+.inquiryRight__summary {
+    font-size: 13px;
+    line-height: 25px;
+    padding-right: 0px;
+}
+/* ========== === Inquiry Css ========= */
+}

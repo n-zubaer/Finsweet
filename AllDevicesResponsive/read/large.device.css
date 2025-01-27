@@ -1,0 +1,72 @@
+/* ============== Large Device Responsive ============ */
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #eef4fa;
+    --primary_font_color: #282938;
+    --navbar_font_color: #bbbbcb;
+    --white_color: #ffff;
+    --yellow_color: #fcd980;
+  }
+
+  /* ========= web css ====== */
+  .webTop__subtitle {
+    font-size: 19px;
+  }
+  .webTop__title {
+    font-size: 38px;
+    line-height: 46px;
+    padding-right: 21%;
+  }
+  /* ========= web css ====== */
+
+  /* ======= web markup css ===== */
+  .client__top {
+    font-size: 15px;
+  }
+  .client__bottom {
+    font-size: 18px;
+  }
+  .Service__top {
+    font-size: 15px;
+  }
+
+  .Service__bottom {
+    font-size: 18px;
+  }
+  .Deliverable__top {
+    font-size: 15px;
+  }
+  .Deliverable__bottom {
+    font-size: 18px;
+  }
+  /* ======= web markup css ===== */
+
+  /* ==========about css =========== */
+  .aboutItems {
+    font-size: 16px;
+  }
+  .aboutItemsOne {
+    font-size: 13px;
+  }
+  /* ==========about css =========== */
+
+  /* ========= build css ========== */
+  .buildDetails__title {
+    font-size: 37px;
+    line-height: 50px;
+  }
+  /* ========= build css ========== */
+
+  /* ====== footer css ======= */
+  .foooterLeft__summary {
+    padding-right: 100px;
+  }
+
+  .footerRight__summary {
+    padding-right: 100px;
+  }
+  /* ====== footer css ======= */
+}
+
+/* ============== Large Device Responsive ============ */

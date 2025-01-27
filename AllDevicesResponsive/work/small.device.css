@@ -1,0 +1,44 @@
+/* ================ Small Device Responsive ============= */
+@media (max-width: 767.98px) { 
+    /* ========= work css========= */
+    .workTop__title {
+        font-size:38px;
+    }
+    .workTop__summary {
+        font-size: 13px;
+        margin-top: -21px;
+        line-height: 21px;
+    }
+    /* ========= work css========= */
+    /* =======build css ======= */
+    .buildDetails__title {
+        font-size: 36px;
+        line-height: 41px;
+    }
+    .buildDetails__summary {
+        font-size: 14px;
+        line-height: 23px;
+        margin-top: 15px;
+    }
+    .contactBtn {
+        font-size: 15px;
+    }
+    /* =======build css ======= */
+
+    /* ====== footer css==== */
+    .foooterLeft__summary {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .footerRight__title {
+        font-size: 45px;
+    }
+
+    .footerRight__summary {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    /* ====== footer css==== */
+ }
+/* ================ Small Device Responsive ============= */

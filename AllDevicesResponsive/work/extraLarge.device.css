@@ -1,0 +1,35 @@
+/* ================== Extra Large Device Responsive ============= */
+@media (max-width: 1399.98px) { 
+    :root {
+        --primary_background_color: #1c1e53;
+        --secondary_background_color: #eef4fa;
+        --primary_font_color: #282938;
+        --navbar_font_color: #bbbbcb;
+        --white_color: #ffff;
+        --yellow_color: #fcd980;
+      }
+
+      /* ========== work css======== */
+      .workTop__title {
+        font-size: 46px;
+    }
+      /* ========== work css======== */
+
+      /* ========= build css ======== */
+      .buildDetails__title {
+        font-size: 46px;
+        line-height: 59px;
+    }
+      /* ========= build css ======== */
+
+      /* ======== footer css ==========] */
+      .foooterLeft__summary {
+        padding-right: 193px;
+    }
+
+    .footerRight__summary {
+        padding-right: 187px;
+    }
+      /* ======== footer css ==========] */
+}
+/* ================== Extra Large Device Responsive ============= */

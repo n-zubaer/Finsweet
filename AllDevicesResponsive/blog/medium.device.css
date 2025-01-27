@@ -1,0 +1,73 @@
+/* ==================== Large Device Responsive ================== */
+@media (max-width: 991.98px) {
+    :root{
+        --primary_background_color:#1C1E53;
+        --secondary_background_color:#EEF4FA;
+        --primary_font_color:#282938;
+        --navbar_font_color:#BBBBCB;
+        --white_color:#ffff;
+        --yellow_color:#FCD980;
+    }
+
+
+    /* ========== navbar css ============= */
+    .customNavItem{
+        margin-right: 0;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid rgb(244, 246, 252, 0.2);
+        border-radius: 41px;
+        -webkit-border-radius: 41px;
+        -moz-border-radius: 41px;
+        -ms-border-radius: 41px;
+        -o-border-radius: 41px;
+}
+
+.customNavItem:hover{
+    background-color: var(--yellow_color);
+}
+
+.blogBtnC{
+    width: 100%;
+}
+
+.custombtn{
+    width: 100%;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+i[class="fa-regular fa-bars"]{
+    color: var(--white_color);
+    padding-top: 6px;
+}
+
+i[class="fa-regular fa-bars --black"]{
+    color: var(--primary_font_color);
+    padding-top: 6px;
+}
+    /* ========== navbar css ============= */
+
+    /* ========== footer css =========== */
+    .foooterLeft{
+        text-align: center;
+    }
+
+    .foooterLeft__summary{
+        padding-right: 0;
+    }
+
+    .footerContent {
+        padding: 18px 0 16px 0;
+        background-color: var(--yellow_color);
+        margin-top: 44px;
+    }
+
+    .footerRight__summary{
+        padding-right: 0;
+        text-align-last: center;
+    }
+    /* ========== footer css =========== */
+ }
+/* ==================== Large Device Responsive ================== */

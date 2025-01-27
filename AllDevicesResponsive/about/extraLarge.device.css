@@ -1,0 +1,51 @@
+/* =================== Extra large Device Responsive ================== */
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* ================ hero left ============ */
+  .heroLeft__title {
+    font-size: 50px;
+    line-height: 64px;
+    padding-bottom: 23px;
+  }
+  /* ================ hero left ============ */
+
+  /* =========== Goal css ------------------ */
+  .goalContentleft__title,
+  .goalContentRight__title {
+    font-size: 33px;
+  }
+  /* =========== Goal css ------------------ */
+
+  /* ================= benefits css ============= */
+  .benefitsContent__summary {
+    text-align: justify;
+  }
+  /* ================= benefits css ============= */
+
+  /* ========== team css ================= */
+  .teamMember__name {
+    font-size: 17px;
+  }
+  .teamMember__post {
+    font-size: 15px;
+  }
+  /* ========== team css ================= */
+
+  /* ========== footer css ================= */
+  .foooterLeft__summary {
+    padding-right: 196px;
+  }
+
+  .footerRight__summary {
+    padding-right: 187px;
+  }
+  /* ========== footer css ================= */
+}
+/* =================== Extra Large Device Responsive ================== */

@@ -1,0 +1,51 @@
+@media (max-width: 575.98px) {
+    .pricingTop__title {
+        font-size: 28px;
+    }
+
+    .pricingTop__summary {
+        font-size: 12px;
+    }
+
+  .pricingContent__top{
+    font-size: 23px;
+  }
+
+  .pricingContent_title{
+    font-size: 20px;
+  }
+
+  .pricingContent__summary {
+
+    line-height: 23px;
+    font-size: 13px;
+}
+.items__summary {
+    font-size: 12px;
+}
+
+.getBtn {
+    padding: 16px 16px;
+    font-size: 16px;
+}
+
+.faqLeft__title {
+    font-size: 20px;
+    line-height: 0px;
+}
+.faqLeft a {
+    font-size: 14px;
+}
+
+.customHeader {
+    font-size: 11px;
+}
+.count {
+    font-size: 10px;
+   
+}
+
+.customContent {
+    font-size: 10px;
+}
+ }

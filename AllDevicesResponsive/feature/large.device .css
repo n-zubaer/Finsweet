@@ -1,0 +1,89 @@
+/* =========== Large Device Responsive  ========== */
+@media (max-width: 1199.98px) { 
+    :root {
+        --primary_background_color: #1c1e53;
+        --secondary_bacegroun_color: #f4f6fc;
+        --White_color: #ffffff;
+        --primary_font_color: #282938;
+        --yellow_color: #fcd980;
+      }
+      /* ============== hero css ======== */
+      .heroLeft__title {
+        font-size: 44px;
+        line-height:52px;
+        padding-right: 89px;
+    }
+
+    .ViewBtn {
+        padding: 16px 40px;
+        font-size: 17px;
+    }
+      /* ============== hero css ======== */
+
+      /* ========== benefits css ========== */
+      .benefitsContent__title {
+        font-size: 20px;
+    }
+    .benefitsContent__summary {
+    font-size: 14px;
+}
+      /* ========== benefits css ========== */
+
+      /* ======== client css ============= */
+      .clientLeft__title {
+        line-height: 42px;
+        font-size: 29px;
+    }
+      /* ======== client css ============= */
+
+      /* ============ rivision css ======== */
+      .rivisionRight__title {
+        font-size: 31px;
+        line-height: 44px;
+    }
+      /* ============ rivision css ======== */
+
+      /* ======== support Css ======== */
+      .supporLeft__title {
+        line-height: 42px;
+        font-size: 29px;
+    }
+      /* ======== support Css ======== */
+
+      /* ======deliver Css ====== */
+      .deliverRight__title {
+        line-height: 42px;
+        font-size: 26px;
+    }
+    .deliverRight__summary {
+        font-size: 15px;
+    }
+      /* ======deliver Css ====== */
+
+      /* ======== faq css ======== */
+      .faqLeft__title {
+        line-height: 41px;
+        font-size: 30px;
+    }
+    .faqLeft a {
+        font-size: 16px;
+    }
+    .customHeader {
+        font-size: 20px;
+    }
+    .customContent {
+        font-size: 15px;
+    }
+      /* ======== faq css ======== */
+
+      /* ========= footer css ========= */
+      .foooterLeft__summary {
+        padding-right: 104px;
+    }
+
+    .footerRight__summary {
+        padding-right: 97px;
+    }
+      /* ========= footer css ========= */
+}
+/* =========== Large Device Responsive  ========== */

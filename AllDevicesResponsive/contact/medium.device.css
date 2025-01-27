@@ -1,0 +1,69 @@
+/* =============== Medium Device Responsive ================= */
+@media (max-width: 991.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /*============ Navbar Css ===========  */
+  i[class="fa-regular fa-bars"] {
+    color: var(--White_color);
+    padding-top: 6px;
+  }
+
+  .customNavItem {
+    margin-right: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+  }
+
+  .customNavItem:hover {
+    background-color: var(--yellow_color);
+  }
+
+  .contactBTn {
+    width: 100%;
+  }
+  .custombtn {
+    margin-top: 20px;
+    margin-left: 4px;
+    width: 100%;
+  }
+  /*============ Navbar Css ===========  */
+
+  /* ========== footer Css ========== */
+  .foooterLeft {
+    text-align: center;
+  }
+
+  .foooterLeft__summary {
+    padding-right: 0;
+  }
+
+  .footerContent {
+    padding: 18px 0 16px 0;
+    background-color: var(--yellow_color);
+    margin-top: 44px;
+  }
+
+  .footerRight__summary {
+    padding-right: 0;
+    text-align-last: center;
+  }
+  i[class="fa-regular fa-bars --bottom"] {
+    padding-top: 6px;
+    color: var(--primary_font_color);
+  }
+  /* ========== footer Css ========== */
+}
+/* =============== Medium Device Responsive ================= */

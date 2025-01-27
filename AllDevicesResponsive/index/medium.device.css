@@ -1,0 +1,127 @@
+/* ====================== Medium Device css ====================== */
+@media (max-width: 991.98px) { 
+    :root{
+        --primary_background_color:#1C1E53;
+        --secondary_bacegroun_color:#F4F6FC;
+        --White_color:#FFFFFF;
+        --primary_font_color:#282938;
+        --yellow_color:#FCD980;
+    
+    }
+    /* ================== Navbar Css =============== */
+    .customToogle{
+        color:var(--White_color) ;
+    }
+
+    .navbarItem{
+        text-align: center;
+        border: 2px solid #474974;
+        border-radius: 41px;
+        -webkit-border-radius: 41px;
+        -moz-border-radius: 41px;
+        -ms-border-radius: 41px;
+        -o-border-radius: 41px;
+        width: 100%;
+        padding: 10px 0;
+        margin: 10px 0;
+}
+
+.navbarItem:hover{
+     background-color: var(--yellow_color);
+}
+
+.ContactBtn__link,.contactBtn{
+    width: 100%;
+    margin-top:10px
+}
+    /* ================== Navbar Css =============== */
+
+    /* ============== Hero Css ============= */
+    .heroLeft__title{
+        text-align: center;
+    }
+    .heroLeft__summary {
+        text-align: center;
+        margin-top: 10px;
+    }
+    /* ============== Hero Css ============= */
+
+    /* ============== Work Css ============== */
+    .workRight{
+        color: var(--White_color);
+        background-color: var(--primary_background_color);
+        padding: 10px 10px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+}
+.workRight__title{
+    color: var(--White_color);
+}
+    /* ============== Work Css ============== */
+
+    /* ============== feature css ================= */
+    .featureContent__summary{
+        text-align-last: center;
+    } 
+    /* ============== feature css ================= */
+
+
+    /* ============= About Css ============= */
+    .aboutLeft {
+        row-gap: 5px;
+    }
+    .aboutLeft__summary{
+        font-size: 16px;
+    }
+    .aboutRight__title{
+        text-align-last: center;
+    }
+    /* ============= About Css ============= */
+
+    /* ============ inquiry Css ========== */
+    .inquiryOverlay {
+        padding: 96px 64px 96px 64px;
+    }
+    
+    .inquiryOverlay__title {
+        font-size: 37px;
+        line-height: 46px;
+    }
+
+    /* ============ inquiry Css ========== */
+
+
+
+    /* ============= Footer Css ============= */
+    .footerLeft{
+        text-align: center;
+    }
+
+    .footerMiddle{
+        margin-top: 40px;
+    }
+
+    .footerRight {
+        margin-top: 20px;
+    }
+
+    .footerRight__title{
+        text-align: center;
+    }
+
+    .footerRight__summary{
+        text-align: center;
+    }
+
+    i[ class="fa-regular fa-bars --bottom"]{
+        padding-top: 6px;
+        color: var(--primary_font_color);
+    }
+    /* ============= Footer Css ============= */
+
+}
+/* ====================== Medium Device css ====================== */
+

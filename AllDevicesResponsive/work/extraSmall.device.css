@@ -1,0 +1,70 @@
+/* ============== Extra Small device Responsive ============ */
+@media (max-width: 575.98px) { 
+
+    
+    /* ======== work css========= */
+    .workTop__subtitle {
+        font-size: 15px;
+    }
+
+    .workTop__title {
+        font-size: 32px;
+    }
+    .workTop__summary {
+        font-size: 11px;
+        margin-top: -21px;
+        line-height: 20px;
+    }
+    /* ======== work css========= */
+
+    /* ====== template css ======= */
+    .templateMenu a {
+        font-size: 10px;
+    }
+
+    .templateBottom__title {
+        font-size: 29px;
+    }
+    .templateBottom__summary {
+        font-size: 13px;
+    }
+
+    .templateBottom__button {
+        font-size: 14px;
+    }
+    /* ====== template css ======= */
+
+    /* ======== buld css ====== */
+    .buildDetails__title {
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .buildDetails__summary {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .contactBtn {
+        padding: 16px 35px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* ======== buld css ====== */
+
+    /* ======== footer css ======= */
+    .foooterLeft__summary {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .footerRight__title {
+        font-size: 42px;
+    }
+    .footerRight__summary {
+        font-size: 13px;
+        line-height: 21px;
+    }
+    .copyRight {
+        font-size: 13px;
+    }
+    /* ======== footer css ======= */
+ }
+/* ============== Extra Small device Responsive ============ */

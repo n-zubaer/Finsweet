@@ -1,0 +1,99 @@
+/* ============= Medium Device Responsive ============= */
+@media (max-width: 991.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #eef4fa;
+    --primary_font_color: #282938;
+    --navbar_font_color: #bbbbcb;
+    --white_color: #ffff;
+    --yellow_color: #fcd980;
+  }
+
+  /* ============== navbar css ======== */
+  i[class="fa-regular fa-bars"] {
+    padding-top: 6px;
+    color: var(--white_color);
+  }
+
+  .customNavItem {
+    margin-right: 0;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+  }
+
+  .customNavItem:hover {
+    background-color: var(--yellow_color);
+  }
+  .BtnContact {
+    width: 100%;
+  }
+  .custombtn {
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+/* ============== navbar css ======== */
+
+/* =========== case css ========== */
+.caseTop__title {
+  font-size: 30px;
+  line-height: 41px;
+}
+.caseTop__summary {
+  font-size: 15px;
+}
+/* =========== case css ========== */
+
+/* ========== blog css =========== */
+.blogHeading__title {
+  line-height: 40px;
+}
+
+.blogHeading__summary {
+  line-height: 24px;
+}
+.blogmiddle__title {
+  font-size: 30px;
+}
+
+.blogmiddle__summary {
+  line-height: 24px;
+}
+
+.blogItems__summary {
+  line-height: 24px;
+}
+/* ========== blog css =========== */
+
+/* ========== footer css ========== */
+.foooterLeft__summary {
+  padding-right: 0;
+}
+
+.footerContent {
+  padding: 18px 0 16px 0px;
+  background-color: var(--yellow_color);
+  margin-top: 44px;
+}
+
+.footerRight__summary {
+  padding-right: 0;
+}
+
+i[class="fa-regular fa-bars --bottom"] {
+  padding-top: 6px;
+  color: var(--primary_font_color);
+}
+/* ========== footer css ========== */
+}
+
+/* ============= Medium Device Responsive ============= */

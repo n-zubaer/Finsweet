@@ -1,0 +1,50 @@
+/* ============== Small Device Responsive ===================== */
+@media (max-width: 767.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* =============== hero css ============ */
+  .heroLeft__title {
+    font-size: 36px;
+    line-height: 38px;
+  }
+  /* =============== hero css ============ */
+
+  /* =============== goal css ============ */
+  .goalContent {
+    padding: 80px 23px 80px 23px;
+    column-gap: 61px;
+    background-color: #f4f5f5;
+  }
+  .goalContentRight__title,
+  .goalContentleft__title {
+    font-size: 15px;
+  }
+
+  /* =============== goal css ============ */
+
+  /* =============== process css ============ */
+  .processTop__title {
+    font-size: 33px;
+  }
+
+  .processContent__summary {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  /* =============== process css ============ */
+
+  /* =========== team css =============== */
+  .processContent__summary {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  /* =========== team css =============== */
+}
+
+/* ============== Small Device Responsive ===================== */

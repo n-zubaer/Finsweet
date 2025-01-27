@@ -1,0 +1,130 @@
+/* ============ Medium Device Responsive Css =============== */
+@media (max-width: 991.98px) { 
+    :root {
+        --primary_background_color: #1c1e53;
+        --secondary_background_color: #eef4fa;
+        --primary_font_color: #282938;
+        --navbar_font_color: #bbbbcb;
+        --white_color: #ffff;
+        --yellow_color: #fcd980;
+      }
+
+      /* ================= navbar css=========== */
+      i[class="fa-regular fa-bars"]{
+        padding-top: 6px;
+        color: var(--white_color);
+      }
+
+      .navItem{
+        margin-left: 0px;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid rgb(244, 246, 252, 0.2);
+        border-radius: 41px;
+        -webkit-border-radius: 41px;
+        -moz-border-radius: 41px;
+        -ms-border-radius: 41px;
+        -o-border-radius: 41px;
+}
+
+.navItem:hover{
+  background-color: var(--yellow_color);
+  color: var(--white_color);
+}
+
+.contactBtn {
+    width: 100%;
+    margin-left: 1px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+      /* ================= navbar css=========== */
+
+      /* ======= Web css ============ */
+      .webTop__subtitle {
+        font-size: 16px;
+    }
+    .webTop__title {
+        font-size: 32px;
+        line-height: 39px;
+        padding-right: 18%;
+    }
+    .webTop__summary {
+        font-size: 15px;
+        line-height: 25px;
+        padding-right: 23px;
+    }
+      /* ======= Web css ============ */
+
+      /* ====== about css ========== */
+      .aboutProjectDetails__title {
+        font-size: 32px;
+    }
+
+    .aboutProjectDetails__summary {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .aboutItems li {
+        font-size: 15px;
+    }
+
+    .aboutBottom__title {
+        font-size: 32px;
+    }
+    .aboutBottom__summary {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .aboutBottomUl li {
+        font-size: 15px;
+    }
+
+    .aboutItemsOne {
+        font-size: 10px;
+    }
+      /* ====== about css ========== */
+
+      /* ========= Build css ========== */
+      .buildDetails__title {
+        font-size: 32px;
+        line-height: 46px;
+    }
+    .buildDetails__summary {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .contactBtn {
+        font-size: 16px;
+    }
+
+     .--modify__button {
+            width: 35%;
+            margin-top: 0;
+        }
+    
+      /* ========= Build css ========== */
+
+
+      /* ========= footer css ========== */
+      .foooterLeft__summary{
+        padding-right: 0;
+      }
+      .footerContent {
+        padding: 18px 0 16px 0;
+        margin-top: 44px;
+    }
+
+    .footerRight__summary{
+        padding-right: 0;
+    }
+
+    i[class="fa-regular fa-bars --bottom"]{
+        padding-top: 6px;
+        color: var(--primary_font_color);
+    }
+      /* ========= footer css ========== */
+ }
+/* ============ Medium Device Responsive Css =============== */

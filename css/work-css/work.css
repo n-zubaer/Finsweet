@@ -1,0 +1,394 @@
+/* ==========================Google Fonts ===================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* ==========================Google Fonts ===================== */
+
+/* =========================== Common Css=================================== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+img,
+p,
+br,
+section,
+span,
+a,
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --secondary_baceground_color: #f4f6fc;
+  --white_color: #ffffff;
+  --primary_font_color: #282938;
+  --yellow_color: #fcd980;
+  --poppins: "Poppins", sans-serif;
+  /* =======Font Size ============= */
+  --heading_font_size: 48px;
+  --subhedaing_font_size: 38px;
+  --paragraph_font_size: 16px;
+  --card_heading_title_font_size: 24px;
+  --heading_font_weight: 600;
+  --paragraph_font_weight: 400;
+  --card_heading_title_font_weight: 500;
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+/* =========================== Common Css=================================== */
+
+/* =========================== Navbar Css=================================== */
+.ourCustomNav {
+    padding: 16px 0;
+    background-color: var(--primary_background_color);
+  }
+  
+  .customNavItem {
+    margin-right: 32px;
+  }
+  
+  .customNavItem a {
+    color: #bbbbcb;
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--card_heading_title_font_weight);
+    font-family: var(--poppins);
+    transition: all linear 0.2s;
+  }
+  
+  .customNavItem:hover a {
+    color: var(--white_color);
+  }
+  
+  .custombtn {
+    padding: 16px 48px;
+    background-color: transparent;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    border-radius: 41px;
+    color: var(--white_color);
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--card_heading_title_font_weight);
+    font-family: var(--poppins);
+    transition: ease-in-out.3s;
+    margin-left: 16px;
+  }
+  
+  .custombtn:hover {
+    background-color: var(--yellow_color);
+    color: #1b1c2b;
+  }
+/* =========================== Navbar Css=================================== */
+
+
+
+/* =========================== Work Css=================================== */
+#workPart{
+    padding: 96px 0;
+    background-color: var(--secondary_baceground_color);
+}
+
+.workTop{
+    row-gap: 24px;
+}
+
+.workTop__subtitle{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: -20px;
+}
+
+.workTop__title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.workTop__summary{
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 733px;
+    text-align-last:center ;
+    line-height: 28px;
+}
+
+.social{
+    column-gap: 27px;
+    margin-top:8px ;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.facebook:hover i {
+  color: var(--yellow_color);
+}
+
+.twitter:hover i{
+    color: var(--yellow_color);
+}
+
+.instagram:hover i{
+    color: var(--yellow_color);
+}
+
+.linkedin:hover i{
+    color: var(--yellow_color);
+}
+
+/* =========================== Work Css=================================== */
+
+
+/* =========================== template Css=================================== */
+#templatePart{
+    padding: 96px 0 128px 0;
+    background-color: var(--white_color);
+}
+
+.templateMenu{
+    column-gap: 32px;
+}
+
+.templateMenu a{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+
+.all:hover {
+ color: #2405F2;
+}
+.ui:hover{
+    color: #2405F2;
+}
+.webflow:hover{
+    color: #2405F2;
+}
+.figma:hover{
+    color: #2405F2;
+}
+
+.templateBottom{
+    row-gap: 24px;
+    overflow: hidden;
+    margin-top: 64px;
+    cursor: pointer;
+}
+
+.templateBottom__img{
+    overflow: hidden;
+    transition: all ease-in-out .5s;
+}
+
+.templateBottom:hover .templateBottom__img{
+    transform:scale(1.1) ;
+    -webkit-transform:scale(1.1) ;
+    -moz-transform:scale(1.1) ;
+    -ms-transform:scale(1.1) ;
+    -o-transform:scale(1.1) ;
+}
+
+.templateBottom__title{
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.templateBottom__summary{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -12px;
+    opacity: 0.7;
+}
+
+.templateBottom__button{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+i[class="fa-solid fa-arrow-right-long align-middle"]{
+    margin-left: 16px;
+}
+
+/* =========================== template Css=================================== */
+
+
+
+/* =========================== build Css=================================== */
+#buildPart{
+    padding-bottom: 128px;
+    background-color: var(--white_color);
+}
+
+.buildDetails__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+    max-width: 730px;
+    line-height: 64px;
+}
+
+.buildDetails__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    max-width: 562px;
+    text-align-last: center;
+    line-height: 28px;
+}
+
+.contactBtn{
+    padding: 16px 67px;
+    background-color: var(--yellow_color);
+    color: var(--primary_font_color);
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid var(--yellow_color);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    margin-top: 20px;
+    transition: ease-in-out 0.3s;
+    -webkit-transition: ease-in-out 0.3s;
+    -moz-transition: ease-in-out 0.3s;
+    -ms-transition: ease-in-out 0.3s;
+    -o-transition: ease-in-out 0.3s;
+}
+
+.contactBtn:hover{
+    background-color: transparent;
+    border: 2px solid var(--yellow_color);
+}
+/* =========================== build Css=================================== */
+
+
+/* =========================== Footer Css=================================== */
+#footerPart{
+    padding-top: 96px;
+    background-color: var(--primary_background_color);
+}
+
+.foooterLeft__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+    padding-right: 241px;
+    line-height: 28px;
+    margin-top: 22px;
+    opacity: 0.8;
+}
+
+.footerContent {
+    padding: 18px 0 16px 37px;
+    background-color: var(--yellow_color);
+    margin-top: 86px;
+}
+
+.footerLeftContent__email{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+.footerLeftContent address{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+}
+
+.footerLeftContentOne__call{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+.footerLeftContentOne a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+}
+
+.footerRight{
+    row-gap: 14px;
+}
+
+.footerRight__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white_color);
+}
+
+.footerRight__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white_color);
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 218px;
+}
+
+.footerSocial{
+    column-gap: 26px;
+    margin-top: 14px;
+    color:var(--white_color);
+    cursor: pointer;
+}
+
+.footerBottom{
+    padding: 15px 0;
+    background-color: var(--white_color);
+}
+
+.copyRight{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+.CopyRight__item{
+    margin-left:32px;
+}
+
+.CopyRight__item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+/* =========================== Footer Css=================================== */
+
+
+

@@ -1,0 +1,173 @@
+/* ========================= Large Device Respnive ========================= */
+@media (max-width: 1199.98px) {
+     /*============== Hero Css =============  */
+     .heroLeft__title {
+        font-size: 30px;
+        padding-right: 0px;
+    }
+    .heroLeft__summary {
+        font-size: 16px;
+        padding-right: 0;
+        line-height: 25px;
+    }
+
+    .workBtn {
+        padding: 16px 39px;
+    }
+    .viewBtn {
+        padding: 12px 5px;
+    }
+     /*============== Hero Css =============  */
+
+
+     /*============== Work Css =============  */
+     .workLeft__title {
+        font-size: 41px;
+    }
+    .workLeft__summary {
+        font-size: 14px;
+        line-height: 22px;
+        padding-right: 0;
+    }
+
+    .workRight__summary {
+        font-size: 15px;
+        line-height: 24px;
+    }
+     /*============== Work Css =============  */
+
+     /* ==============project css =================== */
+     .overlayContent {
+        row-gap: 14px;
+        padding-left: 20px;
+        padding-right: 0;
+        padding-bottom: 47px;
+    }
+
+    .overlayContent__title {
+        font-size: 20px;
+        line-height: 37px;
+    }
+
+    .overlayContent__summary {
+        line-height: 25px;
+    }
+
+    .overlayContentOne {
+        padding-left: 42px;
+        padding-right: 35px;
+        padding-bottom: 16px;
+    }
+
+    .overlayContentOne__title {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .overlayContentOne__summary {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .overlayContentTwo {
+        padding-left: 42px;
+        padding-right: 35px;
+        padding-bottom: 16px;
+    }
+
+    .overlayContentTwo__title {
+        font-size: 23px;
+        line-height: 27px;
+    }
+
+    .overlayContentTwo__summary {
+        font-size: 13px;
+        line-height: 19px;
+    }
+     /* ==============project css =================== */
+
+     /*============== Feature Css =============  */
+     .featureContent__title {
+        font-size: 16px;
+    }
+    .featureContent__summary {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: justify;
+    }
+
+     /*============== Feature Css =============  */
+    
+     /* ========= ABOUT CSS =============== */
+     .aboutLeft__title {
+        font-size: 26px;
+        line-height: 35px;
+        padding-right: 0px;
+    }
+    .aboutLeft__summary {
+        font-size: 13px;
+        line-height: 22px;
+        padding-right: 0px;
+    }
+    .aboutRight__title {
+        font-size: 28px;
+        line-height: 39px;
+    }
+        /* ========= ABOUT CSS =============== */
+
+
+     /*============== Faq Css =============  */
+     .faqLeft{
+        row-gap: 5px;
+    }
+
+     .faqLeft__title {
+        font-size: 30px;
+        line-height: 43px;
+        padding-right: 0px;
+    }
+     /*============== Faq Css =============  */
+
+
+/* =================== Inquiry Css =============== */
+
+.inquiryOverlay {
+    padding: 96px 64px 96px 67px;
+}
+     .inquiryOverlay__title {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .inquiryOverlay__summary {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .inquiryRight__summary {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
+/* =================== Inquiry Css =============== */
+
+/* =================== Blog Css ============== */
+.card__title {
+    font-size: 19px;
+    line-height: 30px;
+}
+.card__summary {
+    font-size: 14px;
+    padding-right: 0px;
+}
+/* =================== Blog Css ============== */
+
+/* =============== Footer Css ============= */
+.footerMiddle {
+    padding: 18px 11px 17px 11px;
+}
+.footerLeft__summary {
+    padding-right: 0px;
+}
+/* =============== Footer Css ============= */
+
+}
+/* ========================= Large Device Respnive ========================= */

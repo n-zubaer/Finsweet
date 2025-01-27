@@ -1,0 +1,44 @@
+/* ==================== Large Device Responsive Css ================= */
+@media (max-width: 1199.98px) { 
+    :root{
+        --primary_background_color:#1C1E53;
+        --secondary_background_color:#EEF4FA;
+        --primary_font_color:#282938;
+        --navbar_font_color:#BBBBCB;
+        --white_color:#ffff;
+        --yellow_color:#FCD980;
+    }
+
+    /* ================= case css ============= */
+    .caseTop__title {
+        font-size: 32px;
+        line-height: 43px;
+    }
+    /* ================= case css ============= */
+
+    /* ================ Blog css =============== */
+    .blogContent__title {
+        line-height: 30px;
+        font-size: 18px;
+    }
+
+    .blogContent__summary {
+        line-height: 25px;
+
+    }
+    /* ================ Blog css =============== */
+
+
+    /* ================ footer css =============== */
+    .foooterLeft__summary {
+        padding-right: 98px;
+    }
+
+    .footerRight__summary {
+        padding-right: 104px;
+    }
+    /* ================ Footer css =============== */
+
+ }
+
+/* ==================== Large Device Responsive Css ================= */

@@ -1,0 +1,48 @@
+/* ============ Extra Large Responsive ============== */
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_background_color: #eef4fa;
+    --primary_font_color: #282938;
+    --navbar_font_color: #bbbbcb;
+    --white_color: #ffff;
+    --yellow_color: #fcd980;
+  }
+
+  /* ============  web css ============ */
+  .webTop__subtitle {
+    font-size: 21px;
+  }
+  .webTop__title {
+    font-size: 42px;
+    line-height: 54px;
+    padding-right: 28%;
+  }
+
+  .Deliverable__bottom {
+    font-size: 22px;
+  }
+  /* ============  web css ============ */
+
+  /* ========= about css ======= */
+  .aboutItemsOne {
+    font-size: 17px;
+  }
+  /* ========= about css ======= */
+  /* ========== build css ============= */
+  .buildDetails__title {
+    font-size: 43px;
+    line-height: 53px;
+  }
+  /* ========== build css ============= */
+
+  /* ========== footer css ======== */
+  .foooterLeft__summary {
+    padding-right: 189px;
+  }
+  .footerRight__summary {
+    padding-right: 174px;
+  }
+  /* ========== footer css ======== */
+}
+/* ============ Extra Large Responsive ============== */

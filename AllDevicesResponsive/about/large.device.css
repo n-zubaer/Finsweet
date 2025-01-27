@@ -1,0 +1,85 @@
+/* =================== Large Device Responsive ================== */
+
+@media (max-width: 1199.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* ========== hero css ============ */
+  .heroLeft__title {
+    font-size: 41px;
+    line-height: 48px;
+  }
+
+  .heroLeft__summary {
+    line-height: 26px;
+    text-align: justify;
+  }
+  /* ========== hero css ============ */
+
+  /* =============== goal css ================= */
+  .goalContentRight__title,
+  .goalContentleft__title {
+    font-size: 26px;
+  }
+
+  .goalContentleft__summary,
+  .goalContentRight__summary {
+    text-align: justify;
+  }
+
+  /* =============== goal css ================= */
+
+  /* ========== process css =========== */
+  .processContent__summary {
+    line-height: 26px;
+    font-size: 15px;
+  }
+  /* ========== process css =========== */
+
+  /* ========= mission css ============ */
+  .missionLeft__title {
+    font-size: 36px;
+  }
+
+  .missionBottomright__title {
+    font-size: 36px;
+  }
+  /* ========= mission css ============ */
+
+  /* ======== benefits css ========== */
+  .benefitsTop__title {
+    font-size: 40px;
+  }
+  .benefitsContent__title {
+    font-size: 19px;
+  }
+
+  .benefitsContent__summary {
+    text-align: justify;
+    font-size: 15px;
+  }
+  /* ======== benefits css ========== */
+
+  /* =========== team css =========== */
+  .teamMember {
+    padding: 48px 38px 38px 38px;
+  }
+  /* =========== team css =========== */
+
+  /* ========== footer css ============== */
+  .foooterLeft__summary {
+    padding-right: 105px;
+  }
+
+  .footerRight__summary {
+    padding-right: 117px;
+  }
+  /* ========== footer css ============== */
+}
+
+/* =================== Large Device Responsive ================== */

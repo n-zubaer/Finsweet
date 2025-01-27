@@ -1,0 +1,543 @@
+/* ==========================Google Fonts ===================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* ==========================Google Fonts ===================== */
+
+
+/* =========================== Common Css=================================== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,div,img,p,br,section,span,a,nav{
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    --primary_background_color:#1C1E53;
+    --secondary_baceground_color:#F4F6FC;
+    --white_color:#FFFFFF;
+    --primary_font_color:#282938;
+    --yellow_color:#FCD980;
+    --poppins:"Poppins", sans-serif;
+    /* =======Font Size ============= */
+    --heading_font_size:48px;
+    --subhedaing_font_size:38px;
+    --paragraph_font_size:16px;
+    --card_heading_title_font_size:24px;
+    --heading_font_weight:600;
+    --paragraph_font_weight:400;
+    --card_heading_title_font_weight:500;
+}
+
+
+body{
+    font-family: var(--poppins);
+}
+
+
+/* =========================== Common Css=================================== */
+
+/* =========================== Navbar Css=================================== */
+.ourCustomNav{
+    padding: 16px 0;
+    background-color: var(--primary_background_color);
+}
+
+.customNavItem{
+    margin-right: 32px;
+}
+
+
+.customNavItem a{
+    color: #BBBBCB;
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--card_heading_title_font_weight);
+    font-family: var(--poppins);
+    transition: all linear .2s;
+}
+
+.customNavItem:hover a{
+    color: var(--white_color);
+}
+
+.custombtn{
+    padding: 16px 48px ;
+    background-color: transparent;
+    border: 2px solid rgb(244, 246, 252,0.2) ;
+    border-radius: 41px;
+    color: var(--white_color);
+    font-size:var(--paragraph_font_size) ;
+    font-weight: var(--card_heading_title_font_weight);
+    font-family: var(--poppins);
+    transition: ease-in-out.3s;
+    margin-left: 16px;
+}
+
+.custombtn:hover{
+    background-color: var(--yellow_color);
+    color: #1B1C2B;
+}
+/* =========================== Navbar Css=================================== */
+
+
+/* ==========================Hero Css ========================== */
+#heroPart{
+    padding: 123px 0 128px 0;
+    background-color: var(--primary_background_color);
+}
+
+.heroLeft{
+    row-gap: 24px;
+}
+.heroLeft__title{
+    font-size:54px ;
+    font-weight: var(--heading_font_weight);
+    font-family: var(--poppins);
+    color: var(--white_color);
+    line-height: 74px;
+    padding-right: 114px;
+}
+
+.heroLeft__summary{
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--paragraph_font_weight);
+    color: var(--white_color);
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 24px;
+    padding-right: 65px;
+}
+
+.ViewBtn{
+    padding: 16px 48px;
+    background-color: transparent;
+    color: var(--white_color);
+    font-size: 18px ;
+    font-weight: var(--heading_font_weight);
+    font-family: "Manrope", system-ui;
+    border:2px solid rgb(244, 246, 252,0.2);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    transition:ease-in-out .3s ;
+    -webkit-transition:ease-in-out .3s ;
+    -moz-transition:ease-in-out .3s ;
+    -ms-transition:ease-in-out .3s ;
+    -o-transition:ease-in-out .3s ;
+}
+
+.ViewBtn:hover{
+    background-color: var(--yellow_color);
+    color: var(--primary_font_color);
+}
+
+.pricingBtn{
+     padding: 16px 44px;
+     font-size: 16px ;
+     font-weight: var(--card_heading_title_font_weight);
+     color: var(--primary_font_color);
+     border-radius: 41px;
+     -webkit-border-radius: 41px;
+     -moz-border-radius: 41px;
+     -ms-border-radius: 41px;
+     -o-border-radius: 41px;
+     border: none;
+     background: none;
+     color: var(--white_color);
+     transition:all linear .2s ;
+     -webkit-transition:all linear .2s ;
+     -moz-transition:all linear .2s ;
+     -ms-transition:all linear .2s ;
+     -o-transition:all linear .2s ;
+}
+
+.pricingBtn:hover{
+    color: var(--yellow_color);
+}
+
+.align-middle{
+    margin-left: 16px;
+}
+
+
+/* ==========================Hero Css ========================== */
+
+
+/* ==========================Logo Css ========================== */
+#logoPart{
+    padding: 96px 0;
+    background-color: var(--white_color);
+}
+
+/* ==========================Logo Css ========================== */
+
+
+/* ========================= Benefits Css ======================= */
+#benefitsPart{
+    padding-bottom: 128px ;
+    background-color: var(--white_color);
+}
+
+
+.benefitsTop__title{
+    font-size: var(--heading_font_size);
+    font-weight: var(--heading_font_weight);
+    color: var(--primary_font_color);
+    line-height: 64px;
+    text-align-last: center;
+}
+
+
+.benefitsContent{
+    row-gap: 12px;
+    padding: 50px 32px 48px 48px;
+    background-color: #F4F6FC;
+}
+.logo i{
+    color: #2405F2;
+    font-size: 25px;
+}
+
+
+.benefitsContent__title{
+    font-size: 24px;
+    font-weight: var(--item_font_weight);
+    color: var(--primary_font_color);
+    margin-top: 14px;
+}
+
+.benefitsContent__summary{
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--paragraph_font_weight);
+    color: var(--primary_font_color);
+    line-height: 28px;
+    opacity: 0.7;
+}
+
+/* ========================= Benefits Css ======================= */
+
+
+
+/* ===========================Client Css ======================= */
+#clientPart{
+    padding-bottom:128px ;
+    background-color: var(--white_color);
+}
+
+.clientLeft{
+    row-gap: 16px;
+}
+
+.clientLeft__top{
+    font-size: 18px;
+    font-weight: var(--card_heading_title_font_weight);
+    color: var(--primary_font_color);
+}
+
+.clientLeft__title{
+    font-size: var(--subhedaing_font_size);
+    font-weight: var(--heading_font_weight);
+    color: var(--primary_font_color);
+    line-height: 56px;
+    
+}
+
+.clientLeft__summary{
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--paragraph_font_weight);
+    color: var(--primary_font_color);
+    line-height: 28px;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+/* ===========================Client Css ======================= */
+
+
+/* ===========================Rivision Css ======================= */
+#rivisionPart{
+    padding: 128px 0;
+    background-color: var(--secondary_baceground_color);
+}
+
+.rivisionRight{
+    row-gap:16px ;
+}
+
+
+.rivisionRight__top{
+    font-size: 18px;
+    font-weight: var(--card_heading_title_font_weight);
+    color: var(--primary_font_color);
+}
+
+.rivisionRight__title{
+    font-size: var(--subhedaing_font_size);
+    font-weight: var(--heading_font_weight);
+    color: var(--primary_font_color);
+    line-height: 56px;
+    
+}
+
+.rivisionRight__summary{
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--paragraph_font_weight);
+    color: var(--primary_font_color);
+    line-height: 28px;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+/* ===========================Rivision Css ======================= */
+
+
+/* ===========================Support Css ======================= */
+#supportPart{
+    padding: 128px 0;
+    background-color: var(--white_color);
+}
+
+
+.supporLeft{
+    row-gap:16px;
+}
+
+.supporLeft__top{
+    font-size: 18px;
+    font-weight: var(--card_heading_title_font_weight);
+    color: var(--primary_font_color);
+}
+
+.supporLeft__title{
+    font-size: var(--subhedaing_font_size);
+    font-weight: var(--heading_font_weight);
+    color: var(--primary_font_color);
+    line-height: 56px;
+}
+.supporLeft__summary{
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--paragraph_font_weight);
+    color: var(--primary_font_color);
+    line-height: 28px;
+    opacity: 0.7;
+    padding-right: 10px;
+}
+/* ===========================Support Css ======================= */
+
+/* ===========================Deliver Css ======================= */
+#deliverPart{
+    padding: 128px 0;
+    background-color: #FFFCF3;
+}
+
+.deliverRight{
+    row-gap:16px ;
+    padding-left: 60px;
+}
+
+
+.deliverRight__top{
+    font-size: 18px;
+    font-weight: var(--card_heading_title_font_weight);
+    color: var(--primary_font_color);
+}
+
+.deliverRight__title{
+    font-size: var(--subhedaing_font_size);
+    font-weight: var(--heading_font_weight);
+    color: var(--primary_font_color);
+    line-height: 56px;
+    
+}
+
+.deliverRight__summary{
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--paragraph_font_weight);
+    color: var(--primary_font_color);
+    line-height: 28px;
+    opacity: 0.7;
+    
+}
+/* ===========================Deliver Css ======================= */
+
+/* ========================= Faq Css ========================== */
+#faqPart{
+    padding:128px 0 ;
+    background-color: var(--white_color);
+}
+
+.faqLeft__title{
+    font-size: var(--subhedaing_font_size);
+    font-weight: var(--heading_font_weight);
+    color: var(--primary_font_color);
+    line-height: 56px;
+    margin-bottom: 16px;
+    padding-right: 83px;
+}
+.faqLeft a{
+    font-size: 18px;
+    font-weight: var(--card_heading_title_font_weight);
+    color: #2405F2;
+}
+
+.count{
+    padding-right: 59px;
+    color: #2405F2;
+    font-size: 24px;
+    font-weight: var(--card_heading_title_font_weight);
+}
+
+.customHeader{
+    font-size: var(--card_heading_title_font_size);
+    font-weight: var(--card_heading_title_font_weight);
+    color: var(--primary_font_color);
+}
+
+.customContent{
+    font-size: 18px;
+    font-weight: var(--card_heading_title_font_weight);
+    color: var(--primary_font_color);
+    opacity: 87%;
+    padding-left:83px ;
+    padding-right: 88px;
+}
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url("../../images/FAQ/plus.png");
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -ms-transition: ease-in-out 0.2s;
+    -o-transition: ease-in-out 0.2s;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../../images/FAQ/Cross_one.png");
+    transform: rotate(-180deg);
+}
+/* ========================= Faq Css ========================== */
+
+/* =========================== Footer Css=================================== */
+#footerPart{
+    padding-top: 96px;
+    background-color: var(--primary_background_color);
+}
+
+.foooterLeft__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+    padding-right: 241px;
+    line-height: 28px;
+    margin-top: 22px;
+    opacity: 0.8;
+}
+
+.footerContent {
+    padding: 18px 0 16px 37px;
+    background-color: var(--yellow_color);
+    margin-top: 86px;
+}
+
+.footerLeftContent__email{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+.footerLeftContent address{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+}
+
+.footerLeftContentOne__call{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+.footerLeftContentOne a{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+}
+
+.footerRight{
+    row-gap: 14px;
+}
+
+.footerRight__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white_color);
+}
+
+.footerRight__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white_color);
+    line-height: 28px;
+    opacity: 0.8;
+    padding-right: 218px;
+}
+
+.footerSocial{
+    column-gap: 26px;
+    margin-top: 14px;
+    color:var(--white_color);
+    cursor: pointer;
+}
+
+.footerBottom{
+    padding: 15px 0;
+    background-color: var(--white_color);
+}
+
+.copyRight{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+.CopyRight__item{
+    margin-left:32px;
+}
+
+.CopyRight__item a{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+}
+
+/* =========================== Footer Css=================================== */
+
+
+
+
+

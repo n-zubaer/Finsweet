@@ -1,0 +1,119 @@
+/* ================= Extra Small Device Responsive css =========== */
+@media (max-width: 575.98px) { 
+    /* =============== web css ============ */
+    #webPart {
+        padding: 66px 0 96px 0;
+    }
+    .webTop__title {
+        font-size: 21px;
+        line-height: 22px;
+    }
+    .webTop__summary {
+        font-size: 12px;
+        line-height: 20px;
+        padding-right: 0;
+        text-align: justify;
+    }
+    .client__top {
+        font-size: 13px;
+    }
+    .client__bottom {
+        font-size: 15px;
+    }
+    .Service__top {
+        font-size: 13px;
+    }
+    .Service__bottom {
+        font-size: 15px;
+    }
+    .Deliverable__top {
+        font-size: 13px;
+    }
+    .Deliverable__bottom{
+        font-size: 15px;
+    }
+    /* =============== web css ============ */
+
+    /* ============= about css ============ */
+    .aboutProjectDetails__title {
+        font-size: 21px;
+    }
+    .aboutProjectDetails__summary {
+        font-size: 12px;
+        line-height: 23px;
+        text-align: justify;
+        padding-right: 0;
+    }
+    .aboutItems li {
+        font-size: 9px;
+    }
+
+    .aboutBottom__title {
+        font-size: 21px;
+    }
+
+    .aboutBottom__summary {
+        font-size: 12px;
+        line-height: 23px;
+        text-align: justify;
+        padding-right: 0;
+    }
+    .aboutBottomUl li {
+        font-size: 9px;
+    }
+    .aboutItems {
+        font-size: 10px;
+    }
+
+    .aboutItemsOne {
+        font-size: 5px;
+    }
+    /* ============= about css ============ */
+
+    /* ============= benefits css ========= */
+    .buildDetails__title {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .buildDetails__summary {
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .--modify__button {
+        width: 63%;
+        font-size: 13px;
+    }
+    /* ============= benefits css ========= */
+
+    /* ============= footer css ========= */
+    .foooterLeft__summary {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 23px;
+    }
+    .footerLeftContent__email {
+        font-size: 16px;
+    }
+
+    .footerLeftContent address {
+        font-size: 14px;
+    }
+    .footerLeftContentOne__call {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footerLeftContentOne a {
+        font-size: 14px;
+    }
+    .footerRight__title {
+        font-size: 40px;
+    }
+    .footerRight__summary {
+        padding-right: 0;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    /* =============footer css ========= */
+ }
+
+/* ================= Extra Small Device Responsive css =========== */

@@ -1,0 +1,54 @@
+/* ================== Small Device Responsive =================== */
+@media (max-width: 767.98px) { 
+    /* ======== case css ========== */
+    .caseTop__title {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    
+    /* ========= case css ============ */
+
+
+    /* ========blog css ========= */
+    .blogHeading__title {
+        font-size: 23px;
+        line-height: 39px;
+    }
+    .blogHeading__summary {
+        line-height: 23px;
+        font-size: 15px;
+    }
+    .blogmiddle__title {
+        font-size: 23px;
+    } 
+    .blogmiddle__summary {
+        line-height: 23px;
+        font-size: 15px;
+    }
+    .blogItems li {
+        font-size: 14px;
+    }
+
+    .blogItems__summary {
+        line-height: 23px;
+        font-size: 15px;
+    }
+    /* ========blog css ========= */
+
+
+    /* ======== footer css ========= */
+    .foooterLeft__summary {
+        line-height: 24px;
+        font-size: 15px;
+    }
+    .footerRight__title {
+        font-size: 43px;
+    }
+
+    .footerRight__summary {
+        line-height: 24px;
+        font-size: 15px;
+    }
+    /* ========footer css ========= */
+}
+/* ================== Small Device Responsive =================== */

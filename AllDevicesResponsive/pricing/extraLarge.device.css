@@ -1,0 +1,34 @@
+@media (max-width: 1399.98px) { 
+    :root{
+        --primary_background_color:#1C1E53;
+        --secondary_background_color:#EEF4FA;
+        --primary_font_color:#282938;
+        --navbar_font_color:#BBBBCB;
+        --white_color:#ffff;
+        --yellow_color:#FCD980;
+    }
+
+    /* =============  */
+    .pricingContent__top small {
+
+        font-size: 15px;
+    }
+
+    .getBtn {
+        padding: 16px 59px;
+    }
+
+    .faqLeft__title {
+        font-size: 33px;
+        padding-right: 0;
+        line-height: 41px;
+    }
+
+    .foooterLeft__summary {
+        padding-right: 196px;
+    }
+
+    .footerRight__summary {
+        padding-right: 185px;
+    }
+ }

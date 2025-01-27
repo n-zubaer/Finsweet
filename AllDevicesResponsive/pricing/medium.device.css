@@ -1,0 +1,52 @@
+@media (max-width: 991.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  .customNavItem {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+  }
+
+  .customNavItem:hover {
+    background-color: var(--yellow_color);
+  }
+
+  .custombtn {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .foooterLeft {
+    text-align: center;
+  }
+
+  .foooterLeft__summary {
+    padding-right: 0;
+  }
+
+  .footerContent {
+    padding: 18px 0 16px 0px;
+  }
+
+  .footerRight__summary {
+    padding-right: 0;
+    text-align-last: center;
+  }
+
+  i[class="fa-regular fa-bars"] {
+    padding-top: 6px;
+  }
+}

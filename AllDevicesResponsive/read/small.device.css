@@ -1,0 +1,45 @@
+/* ============ Small Device Responsive Css =============== */
+@media (max-width: 767.98px) {
+  /* ============= web css ========== */
+  .webTop__subtitle {
+    font-size: 14px;
+  }
+  .webTop__title {
+    font-size: 30px;
+    line-height: 29px;
+    padding-right: 0;
+  }
+  .webTop__summary {
+    font-size: 13px;
+    line-height: 21px;
+    padding-right: 23px;
+  }
+
+  /* ============= web css ========== */
+
+  /* ======== about css======== */
+  .aboutProjectDetails__title {
+    font-size: 30px;
+  }
+  .aboutProjectDetails__summary {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .aboutBottom__title {
+    font-size: 30px;
+  }
+  .aboutBottom__summary {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  /* ======== about css======== */
+
+  /* ========== build css ======== */
+  .--modify__button {
+    width: 45%;
+    font-size: 15px;
+  }
+  /* ========== build css ======== */
+}
+
+/* ============ Small Device Responsive Css =============== */

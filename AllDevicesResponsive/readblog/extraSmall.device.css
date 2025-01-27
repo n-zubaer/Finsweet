@@ -1,0 +1,68 @@
+/* =============== Extra Small Device Responsive ============ */
+@media (max-width: 575.98px) {
+  /* ========== navbar css ======== */
+  .customNavItem a {
+    font-size: 14px;
+  }
+  /* ========== navbar css ======== */
+  /* ========== case css ========== */
+  #casePart {
+    padding-top: 60px;
+  }
+  .caseTop__title {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .caseTop__summary {
+    font-size: 14px;
+  }
+  /* ========== case css ========== */
+
+  /* ========= blog css ========== */
+  #blogPart {
+    padding: 48px 0 57px 0;
+  }
+  .blogHeading__title {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 12px;
+  }
+  .blogHeading__summary {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  .blogmiddle__title {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .blogmiddle__summary {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  .blogItems li {
+    font-size: 9px;
+  }
+  .blogItems__summary {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  /* ========= blog css ========== */
+
+  /* ======= footer css ========== */
+  .foooterLeft__summary {
+    line-height: 21px;
+    font-size: 14px;
+  }
+  .footerRight__title {
+    font-size: 40px;
+  }
+  .footerRight__summary {
+    line-height: 21px;
+    font-size: 13px;
+  }
+  .copyRight {
+    font-size: 13px;
+  }
+  /* ======= footer css ========== */
+}
+/* =============== Extra Small Device Responsive ============ */

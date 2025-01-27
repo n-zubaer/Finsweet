@@ -1,0 +1,116 @@
+/* ============= Extra Small Device Responsive ============ */
+@media (max-width: 575.98px) { 
+    /* =========== hero css ====== */
+    .heroLeft__title {
+        font-size: 24px;
+        line-height: 0;
+    }
+    .heroLeft__summary {
+        margin-bottom: 0;
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .ViewBtn {
+        font-size: 14px;
+    }
+    /* =========== hero css ====== */
+
+    /* ========= benefits css ======= */
+
+     
+    .benefitsTop__title {
+        line-height: 0;
+        font-size: 18px;
+    }
+
+    .benefitsContent__title {
+        font-size: 18px;
+    }
+    .benefitsContent__summary {
+        font-size: 11px;
+        line-height: 19px;
+    }
+    /* ========= benefits css ======= */
+
+/* ========= client css ========= */
+.clientLeft__top {
+    font-size: 15px;
+}
+.clientLeft__title {
+    line-height: 27px;
+    font-size: 18px;
+}
+
+.clientLeft__summary {
+    line-height: 21px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/* ========= client css ========= */
+
+/* ========== RIVISION CSS ======= */
+.rivisionRight__top {
+    font-size: 15px;
+}
+.rivisionRight__title {
+    font-size: 18px;
+    line-height: 31px;
+}
+.rivisionRight__summary {
+    line-height: 21px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/* ========== RIVISION CSS ======= */
+
+/* ========== support css ========= */
+.supporLeft__top {
+    font-size: 15px;
+}
+
+.supporLeft__title {
+    line-height: 33px;
+    font-size: 18px;
+}
+.supporLeft__summary {
+    line-height: 25px;
+    font-size: 12px;
+}
+
+/* ========== support css ========= */
+
+/* ========== delivary css ======= */
+.deliverRight__top {
+    font-size: 15px;
+}
+.deliverRight__title {
+    line-height: 30px;
+    font-size: 18px;
+}
+.deliverRight__summary {
+    font-size: 13px;
+    line-height: 25px;
+}
+/* ========== delivary css ======= */
+
+/* ====== faq css ============ */
+.faqLeft__title {
+    line-height: 1;
+    font-size: 20px;
+}
+.faqLeft a {
+    font-size: 14px;
+}
+.count {
+    font-size: 12px;
+}
+.customHeader {
+    font-size: 12px;
+}
+.customContent {
+    font-size: 10px;
+    padding-right: 0;
+}
+/* ====== faq css ============ */
+ }
+/* ============= Extra Small Device Responsive ============ */

@@ -1,0 +1,298 @@
+/* ==========================Google Fonts ===================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+/* ==========================Google Fonts ===================== */
+
+/* =========================== Common Css=================================== */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+img,
+p,
+br,
+section,
+span,
+a,
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary_background_color: #1c1e53;
+  --secondary_baceground_color: #f4f6fc;
+  --white_color: #ffffff;
+  --primary_font_color: #282938;
+  --yellow_color: #fcd980;
+  --poppins: "Poppins", sans-serif;
+  /* =======Font Size ============= */
+  --heading_font_size: 48px;
+  --subhedaing_font_size: 38px;
+  --paragraph_font_size: 16px;
+  --card_heading_title_font_size: 24px;
+  --heading_font_weight: 600;
+  --paragraph_font_weight: 400;
+  --card_heading_title_font_weight: 500;
+}
+
+body {
+  font-family: var(--poppins);
+}
+
+/* =========================== Common Css=================================== */
+
+/* =========================== Navbar Css=================================== */
+.ourCustomNav {
+    padding: 16px 0;
+    background-color: var(--primary_background_color);
+  }
+  
+  .customNavItem {
+    margin-right: 32px;
+  }
+  
+  .customNavItem a {
+    color: #bbbbcb;
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--card_heading_title_font_weight);
+    font-family: var(--poppins);
+    transition: all linear 0.2s;
+  }
+  
+  .customNavItem:hover a {
+    color: var(--white_color);
+  }
+  
+  .custombtn {
+    padding: 16px 48px;
+    background-color: transparent;
+    border: 2px solid rgb(244, 246, 252, 0.2);
+    border-radius: 41px;
+    color: var(--white_color);
+    font-size: var(--paragraph_font_size);
+    font-weight: var(--card_heading_title_font_weight);
+    font-family: var(--poppins);
+    transition: ease-in-out.3s;
+    margin-left: 16px;
+  }
+  
+  .custombtn:hover {
+    background-color: var(--yellow_color);
+    color: #1b1c2b;
+  }
+/* =========================== Navbar Css=================================== */
+
+/* =========================== Case Css=================================== */
+#casePart{
+    padding-top: 128px ;
+    background-color: var(--white_color);
+  }
+  
+  .caseTop__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+    line-height: 64px;
+    text-align: center;
+  }
+  
+  .caseTop__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_font_color);
+    opacity: 87%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+  }
+  
+  
+  /* =========================== Case Css=================================== */
+
+  /* =========================== Blog Down Css=================================== */
+  #blogPart{
+    padding:48px 0 128px  0;
+    background-color: var(--white_color);
+  }
+
+  .blogHeading__title{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+    line-height: 56px;
+    margin-bottom: 32px;
+  }
+
+
+  .blogHeading__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    line-height: 28px;
+    padding-right: 20px;
+  }
+
+
+  .blogmiddle__title{
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--primary_font_color);
+    margin-bottom: 32px;
+  }
+
+  .blogmiddle__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    line-height: 28px;
+    padding-right: 20px;
+  }
+
+  .blogItems{
+    margin-top: 24px;
+    row-gap: 12px;
+  }
+
+  .blogItems li{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+  }
+
+  .blogItems__summary{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_font_color);
+    opacity: 0.7;
+    line-height: 28px;
+    padding-right: 20px;
+    margin: 32px 0 ;
+  }
+
+  .modifier--bottom{
+    margin-top: 30px;
+  }
+  /* =========================== Blog Down Css=================================== */
+
+  /* =========================== Footer Css=================================== */
+#footerPart{
+  padding-top: 96px;
+  background-color: var(--primary_background_color);
+}
+
+.foooterLeft__summary{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white_color);
+  padding-right: 241px;
+  line-height: 28px;
+  margin-top: 22px;
+  opacity: 0.8;
+}
+
+.footerContent {
+  padding: 18px 0 16px 37px;
+  background-color: var(--yellow_color);
+  margin-top: 86px;
+}
+
+.footerLeftContent__email{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary_font_color);
+}
+.footerLeftContent address{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_font_color);
+}
+
+.footerLeftContentOne__call{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--primary_font_color);
+}
+
+.footerLeftContentOne a{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--primary_font_color);
+}
+
+.footerRight{
+  row-gap: 14px;
+}
+
+.footerRight__title{
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--white_color);
+}
+
+.footerRight__summary{
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white_color);
+  line-height: 28px;
+  opacity: 0.8;
+  padding-right: 218px;
+}
+
+.footerSocial{
+  column-gap: 26px;
+  margin-top: 14px;
+  color:var(--white_color);
+  cursor: pointer;
+}
+
+.footerBottom{
+  padding: 15px 0;
+  background-color: var(--white_color);
+}
+
+.copyRight{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary_font_color);
+}
+
+.CopyRight__item{
+  margin-left:32px;
+}
+
+.CopyRight__item a{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary_font_color);
+}
+
+/* =========================== Footer Css=================================== */

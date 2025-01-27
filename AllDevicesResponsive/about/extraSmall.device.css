@@ -1,0 +1,80 @@
+/* =================== Extra Small Device Responsive ================== */
+@media (max-width: 575.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* ============= hero css ========= */
+  #heroPart {
+    padding: 55px 0;
+  }
+  .heroLeft__subtitle {
+    font-size: 16px;
+  }
+  .heroLeft__title {
+    font-size: 23px;
+    line-height: 17px;
+  }
+  .heroLeft__summary {
+    font-size: 15px;
+    padding-right: 0;
+  }
+
+  /* ============= hero css ========= */
+
+  /* ===========goal css ========== */
+  .goalContentleft__summary,
+  .goalContentRight__summary {
+    text-align: justify;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  /* ===========goal css ========== */
+
+  /* ======== process css======== */
+  .processTop__title {
+    font-size: 24px;
+  }
+
+  .processContent__title {
+    font-size: 21px;
+  }
+  /* ======== process css======== */
+
+  /* ======== mission css======== */
+
+  .missionLeft__title {
+    font-size: 26px;
+  }
+
+  .missionLeft__summary {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .missionBottomright__summary {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* ======== mission css======== */
+
+  /* ========benefits css ========== */
+  .benefitsTop__title {
+    font-size: 23px;
+    line-height: 30px;
+  }
+  /* ========benefits css ========== */
+
+  /* ==========team css ============ */
+  .teamTop__title {
+    font-size: 34px;
+  }
+  /* ==========team css ============ */
+}
+
+/* =================== Extra Small Device Responsive ================== */

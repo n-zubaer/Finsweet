@@ -1,0 +1,79 @@
+/* ================ Extra Large Device Css =============== */
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* ============= hero css ============ */
+  .heroLeft__title {
+    font-size: 46px;
+    line-height: 54px;
+  }
+  .heroLeft__summary {
+    padding-right: 0px;
+  }
+  /* ============= hero css =============== */
+
+  /* ============= benefits css =============== */
+  .benefitsTop__title {
+    line-height: 56px;
+    font-size: 40px;
+  }
+  .benefitsContent__summary {
+    text-align: justify;
+  }
+  /* ============= benefits css =============== */
+
+  /* ======== Client css========== */
+  .clientLeft__title {
+    line-height: 46px;
+    font-size: 35px;
+  }
+  /* ======== Client css========== */
+
+  /* ========= rivision css ========== */
+  .rivisionRight__title {
+    font-size: 35px;
+  }
+  /* ========= rivision css ========== */
+
+  /* =========== support css ============ */
+  .supporLeft__title {
+    line-height: 46px;
+    font-size: 35px;
+  }
+  /* =========== support css ============ */
+
+  /* ======== Delivery css =========== */
+  .deliverRight__title {
+    line-height: 46px;
+    font-size: 32px;
+  }
+  /* ======== Delivery css =========== */
+
+  /* ======= faq css ======== */
+  .faqLeft__title {
+    line-height: 44px;
+    padding-right: 0;
+    font-size: 34px;
+  }
+  /* ======= faq css ======== */
+
+  /* ========= footer css ========== */
+  .foooterLeft__summary {
+    padding-right: 168px;
+    line-height: 28px;
+    margin-top: 22px;
+    opacity: 0.8;
+  }
+
+  .footerRight__summary {
+    padding-right: 181px;
+  }
+  /* ========= footer css ========== */
+}
+/* ================ Extra Large Device Css =============== */

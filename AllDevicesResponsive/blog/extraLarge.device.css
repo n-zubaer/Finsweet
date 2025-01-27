@@ -1,0 +1,47 @@
+/* ===================== ExtraLarge Device Responsive =========================== */
+@media (max-width: 1399.98px) { 
+
+    :root{
+        --primary_background_color:#1C1E53;
+        --secondary_background_color:#EEF4FA;
+        --primary_font_color:#282938;
+        --navbar_font_color:#BBBBCB;
+        --white_color:#ffff;
+        --yellow_color:#FCD980;
+    }
+
+    /* ============== case css =========== */
+    .caseTop__title {
+        font-size: 40px;
+        line-height: 58px;
+    }
+
+    /* ============== case css =========== */
+
+
+    /* ============== blog css =========== */
+
+
+    .blogContent__title {
+        line-height: 30px;
+        font-size: 22px;
+    }
+
+    /* ============== blog css =========== */
+
+
+   /* ============== Footer css =========== */
+   .foooterLeft__summary {
+    padding-right: 185px;
+}
+
+.footerRight__summary {
+    padding-right: 156px;
+}
+   /* ============== Footer css =========== */
+
+
+    
+}
+
+/* ===================== ExtraLarge Device Responsive =========================== */

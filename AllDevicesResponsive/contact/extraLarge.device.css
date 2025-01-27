@@ -1,0 +1,21 @@
+/* ==================== Extra Large Device Responsive ==================   */
+@media (max-width: 1399.98px) {
+  :root {
+    --primary_background_color: #1c1e53;
+    --secondary_bacegroun_color: #f4f6fc;
+    --White_color: #ffffff;
+    --primary_font_color: #282938;
+    --yellow_color: #fcd980;
+  }
+
+  /* =============== Footer Css ============ */
+  .foooterLeft__summary {
+    padding-right: 195px;
+  }
+
+  .footerRight__summary {
+    padding-right: 194px;
+  }
+  /* =============== Footer Css ============ */
+}
+/* ==================== Extra Large Device Responsive ==================   */

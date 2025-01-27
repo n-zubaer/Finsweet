@@ -1,0 +1,12 @@
+/* ================= Small Device Responsive ============= */
+@media (max-width: 767.98px) {
+  /* ================= form css ============ */
+  #name {
+    padding: 18px 27px 18px 32px;
+  }
+  #email {
+    padding: 18px 39px 18px 32px;
+  }
+  /* ================= form css ============ */
+}
+/* ================= Small Device Responsive ============= */

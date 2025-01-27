@@ -1,0 +1,198 @@
+/* ================== Extra Small Devixe Responsive =================== */
+@media (max-width: 575.98px) { 
+
+
+    /* =========== Hero Css =========== */
+    #heroPart {
+        padding: 42px 0 75px 0;
+    }
+    .heroLeft__title{
+        font-size: 25px;
+    }
+
+    .heroLeft__summary {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .customWorkBTn{
+        margin-left: 29px;
+    }
+    .workBtn {
+        padding: 13px 20px;
+        font-size: 12px;
+    }
+    .viewBtn{
+        font-size:12px ;
+    }
+    /* =========== Hero Css =========== */
+
+    /* ======= Work Css ========== */
+    #workPart {
+        padding: 57px 0;
+    }
+    .workLeft__summary {
+        font-size: 13px;
+        line-height: 20px;
+        padding-right: 0;
+    }
+    .workLeft__btn {
+        font-size: 15px;
+    }
+
+    .g-5, .gx-5 {
+        --bs-gutter-x: 0;
+    }
+    /* ======= Work Css ========== */
+
+
+    /* =========== Project Css =========== */
+    #projectPart {
+        padding: 60px 0;
+    }
+
+    .projectTop__title {
+        font-size: 22px;
+    }
+    .overlayContent {
+        row-gap: 10px;
+        padding-left: 7px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+    .overlayContent__title {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .overlayContent__summary {
+        line-height: 17px;
+        font-size: 11px;
+        padding-right: 0;
+    }
+    .OverlayBtn {
+        font-size: 12px;
+    }
+    /* =========== Project Css =========== */
+
+    
+    /* ============ feature css ============= */
+    #feturePart {
+        padding: 65px 0;
+    }
+    .featureTop__title {
+        line-height: 36px;
+        font-size: 29px;
+    }
+
+   
+    /* ============ feature css ============= */
+    /* ============ about Css ========= */
+    #aboutPart {
+        padding: 65px 0;
+    }
+
+    .aboutLeft__title {
+        font-size: 18px;
+        padding-right: 0px;
+    }
+
+    .aboutRight__title {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .aboutLeft__summary {
+        font-size: 11px;
+    }
+    
+
+    /* ============ about Css ========= */
+
+
+    /* ============ Faq Css ========= */
+    #faqPart {
+        padding: 72px 0;
+    }
+    .faqLeft__title {
+        font-size: 22px;
+        line-height: 43px;
+        padding-right: 0px;
+    }
+    .customTitle {
+        font-size: 12px;
+    }
+    .customTitle {
+        font-size: 12px;
+    }
+    .customPara {
+        font-size: 10px;
+        line-height: 14px;
+        padding-right: 10px;
+        padding-left: 73px;
+    }
+    /* ============ Faq Css ========= */
+
+    /* =========== inquiry Css ========= */
+    .inquiryOverlay {
+        padding: 18px 29px 96px 29px;
+    }
+    .inquiryOverlay__title {
+        font-size: 24px;
+        line-height: 31px;
+        margin-bottom: -8px;
+    }
+    .inquiryOverlay__summary {
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 400;
+    }
+
+    .inquiryRight {
+        padding: 18px 29px 96px 29px;
+    }
+    .inquiryRight__title {
+        font-size: 26px;
+    }
+
+    .inquiryRight__summary {
+        font-size: 14px;
+        line-height: 25px;
+        padding-right: 0px;
+    }
+    .sendBtn {
+        font-size: 15px;
+    }
+    .getBtn {
+        font-size: 14px;
+    }
+    /* =========== inquiry Css ========= */
+
+    /* =========== blog css======== */
+    #blogPart {
+        padding: 82px 0;
+    }
+    .blogTop__title {
+        font-size: 40px;
+    }
+    /* =========== blog css======== */
+
+    /* =========== footer css =========== */
+    .footerLeft__summary {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .footerRight__title {
+        font-size: 42px;
+    }
+    .footerRight__summary {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .footerRight__summary {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+   
+    /* =========== footer css =========== */
+    
+ }
+/* ================== Extra Small Devixe Responsive =================== */
