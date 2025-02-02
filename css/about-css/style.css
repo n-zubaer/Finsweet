@@ -499,8 +499,9 @@ i[ class="fa-regular fa-bars"]{
     cursor: pointer;
 }
 
+
 .footerBottom{
-    padding: 15px 0;
+    padding: 16px 0;
     background-color: var(--white_color);
 }
 
